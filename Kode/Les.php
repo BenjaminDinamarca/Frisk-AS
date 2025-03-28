@@ -20,12 +20,12 @@ $medlemer = $stmt->fetchAll(PDO::FETCH_ASSOC);
     
     <link rel="stylesheet" href="./CSS/style.css">
 
-    <title>Alle medlemer</title>
+    <title>Alle kunder</title>
 </head>
 <body>
 <?php include "meny.php";?>
     <header>
-        <p>VIS ALLE MEDLEMER</p>
+        <p>VIS ALLE KUNDER</p>
     </header>
 
     <main>
